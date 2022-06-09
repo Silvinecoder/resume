@@ -1,0 +1,31 @@
+.heading__and__socials{
+    background-color: $primary-brown;
+    padding-left: $spacer--2;
+    padding: $spacer--9 0;
+    grid-area: 1;
+
+    h1{
+    margin-bottom: 0;
+
+    .flicker {
+        animation: blink 3s 2s infinite;
+        @include blink-animation;
+    }
+
+    .fast-flicker {
+        animation: blink 10s 1s infinite;
+        @include blink-animation;
+    }
+    }
+
+    a{
+    animation: glow-dark 3s ease-in-out infinite alternate;
+    color: $white;
+    @include glow-animation__dark-bg;
+    word-break: break-all;
+    }
+
+    h1, h2, h3, h4, p, ul{
+    margin-left: $spacer--2;
+    }
+}

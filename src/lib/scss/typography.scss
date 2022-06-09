@@ -1,0 +1,41 @@
+// weight 
+$semi-bold: 400;
+$bold: 700;
+
+// Removing default css
+p, li, h1, h2, h3, h4{
+  font-family: 'Roboto', sans-serif;
+  margin-top: 0;
+  letter-spacing: 1px;
+}
+
+h1, h2, h3{
+  color: $dark-blue;
+  font-weight: $bold;
+  font-family: 'Pacifico', cursive;
+  margin-bottom: $spacer--5;
+}
+
+h1{
+  font-size: 32px;
+}
+
+h2{
+  font-size: 28px;
+}
+
+h3{
+  font-size: 24px;
+}
+
+h4{
+  color: $primary-brown;
+}
+
+p, li, h4{
+  margin-bottom: $spacer--3;
+}
+
+p, li {
+  color: $black;
+}

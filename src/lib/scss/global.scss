@@ -1,0 +1,43 @@
+// removing default css
+a, a:hover, a:focus, a:active{
+  text-decoration: none;
+  color: inherit;
+}
+
+ul{
+  padding: 0;
+  list-style-type: none;
+  margin: 0;
+}
+
+// Colours
+
+$white: #ffff;
+$grey: #F6F6F6;
+$black: #393E46;
+$dark-blue: #112D4E;
+$primary-brown: #F08A5D;
+
+
+// Spacers
+
+$spacer--1: 0.5rem; // 8px
+$spacer--2: 0.75rem; // 12px
+$spacer--3: 0.875rem; // 14px
+$spacer--4: 1rem; // 16px
+$spacer--5: 1.125rem; // 18px
+$spacer--6: 1.25rem; // 20px
+$spacer--7: 1.375rem; // 22px
+$spacer--8: 1.5rem;     // 24px
+$spacer--9: 1.625rem;     // 26px
+$spacer--10: 1.75rem;    // 28px
+$spacer--11: 1.875rem;    // 30px
+$spacer--12: 2rem;   //32px
+$spacer--13: 3.75rem; //60px
+
+// Breakpoints
+$desktop--breakpoint: 992px;
+
+i::before{
+  margin-right: $spacer--2;
+}
