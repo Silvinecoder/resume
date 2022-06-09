@@ -25,16 +25,24 @@
   <div class="education__skills__language">
 
     <div class="subheadings">    
-      <h3>Education</h3>
+      <h3>Education:</h3>
     </div>
 
     <div class="education">
+      <h3>Certificates</h3>
+      <h4>Vue JS + Google Maps API: Build Location Based Web Apps Fast By Raja Tamil</h4>
+      <p><i class="fa-solid fa-calendar-days"></i>(May 2022)</p>
+      <h4>The Complete Web Development Bootcamp By Dr. Angela Yu</h4>
+      <p><i class="fa-solid fa-calendar-days"></i>(January 2021 - July 2021)</p>
+      <h4>The complete JavaScript Course: From Zero to Hero By Johnas Schmedtmann</h4>
+      <p><i class="fa-solid fa-calendar-days"></i>(April 2021 - July 2021)</p>
+      <h3>University</h3>
       <h4>University Of Hertfordshire</h4>
       <p><i class="fa-solid fa-calendar-days"></i>2019-2022</p>
       <p><i class="fa-solid fa-certificate"></i>MSc Music and Sound Technology (Audio Engineering)</p>
       <h4>Anglia Ruskin University</h4>
       <p><i class="fa-solid fa-calendar-days"></i>2015-2018</p>
-      <p><i class="fa-solid fa-certificate"></i>BA Hons Popular Music Degree</p>
+      <p><i class="fa-solid fa-certificate"></i>BA Hons Music Degree</p>
     </div>
 
 
@@ -54,6 +62,7 @@
       <ul>
         <li>Sass/Scss</li>
         <li>Less</li>
+        <li>Tailwind</li>
         <li>Bootstrap</li>
         <li>Typescript</li>
         <li>Jquery</li>
@@ -66,6 +75,11 @@
         <li>React.js</li>
         <li>Svelte.js</li>
         <li>twig.js</li>
+      </ul>
+
+      <h4>RTE</h4>
+      <ul>
+        <li>Node.js</li>
       </ul>
 
       <h4>CMS</h4>

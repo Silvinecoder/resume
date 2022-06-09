@@ -28,31 +28,34 @@
       </div>
       <div class="work__container">
         <h2>Work Experience</h2>
-        <a href="https://www.versantus.co.uk/"><h3>Versantus</h3></a> <!--add the glowing animation-->
+        <a href="https://www.versantus.co.uk/"><h3>Versantus</h3></a> 
         <h4>Front-End Developer</h4>
         <div class="work-place">
           <p><i class="fa-solid fa-calendar-days"></i> August 2021 - current</p>
           <p><i class="fa-solid fa-location-dot"></i> Frieze Farmhouse, Oxford</p>
         </div>
         <ul>
-          <li>I Maintained and developed commercial websites using WordPress and Drupal CMS, Twig, SCSS, Bootstrap, and Jquery.</li>
+          <li>Maintained and developed commercial websites using WordPress and Drupal CMS, Twig, SCSS, Bootstrap, and Jquery.</li>
           <li>Used Drupal Mosaic WebKit to develop Oxford University websites, including the 
             <a href="https://www.spi.ox.ac.uk/">Department of Social Policy and Intervention</a></li>
           <li>Contributed to a React Native app project by developing features and fixes for the app. </li>
-          <li>I worked in an agile environment with weekly stand-ups, sharing knowledge with teammates and working closely with the project manager to ensure that every product met the versatile, modern, and performant requirements.</li>
+          <li>Worked in an agile environment with weekly stand-ups, sharing knowledge with teammates and working closely with the project manager to ensure that every product met the versatile, modern, and performant requirements.</li>
           <li>Followed best practices and guidelines, including being a part of developing a Drupal starter Kit for future development practices.</li>
           <li>Debug technical issues for Customer service, including style, configuration, security updates and deployment.</li>
         </ul>
       </div>
       <div class="project__container">
         <h2>Projects</h2>
-        <a href="https://www.versantus.co.uk/"><h3>TaxiToursFernandes</h3></a>
+        <a href="https://www.versantus.co.uk/"><h3>TaxiToursFernandes</h3></a> <!--Change the href-->
         <h4>Full-Stack Developer</h4>
         <ul>
           <li>Built a full-stack Uber influenced web app for a taxi company.</li>
           <li>The app is built with Vue.js using Quasar to deploy it on the Web as a SPA, PWA, and SSR to a Mobile App in a single-code base.</li>
           <li>It uses GoogleMaps Api and typescript to allow users to select their destinations and store their data on Google FireBase. The app also has a GPS for users to track the vehicle's movement.</li>
         </ul>
+      </div>
+      <div class="pdf__container">
+        <h4><a href="/assets/CristianaSimoesResume.pdf" download>CristianaSimoesResume.pdf</a></h4>
       </div>
     </div>
   </div>
@@ -71,7 +74,7 @@
             @include glow-animation;
         }
 
-        .career__container, .work__container{
+        .career__container, .work__container, .project__container{
           margin-bottom: $spacer--12;
         }
 
@@ -92,6 +95,10 @@
                 list-style-type: circle;
                 margin-left: $spacer--4;
             }
+        }
+
+        .pdf__container{
+              text-align: center;
         }
     }
 
