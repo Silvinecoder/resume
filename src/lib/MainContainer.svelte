@@ -23,7 +23,9 @@
     </div>
     <div class="career__and__work__container">
       <div class="career__container">
-        <h2>Career Objective</h2>
+        <div class="grid_container">
+          <h2>Career Objective</h2>
+        </div>
         <p>Front-end developer with over one year of experience in responsive website design and a firm believer in the mobile-first approach. After successfully building WordPress and Drupal websites, I am eager to continue my Career, expanding my framework skills. </p>
       </div>
       <div class="work__container">
@@ -37,7 +39,7 @@
         <ul>
           <li>Maintained and developed commercial websites using WordPress and Drupal CMS, Twig, SCSS, Bootstrap, and Jquery.</li>
           <li>Used Drupal Mosaic WebKit to develop Oxford University websites, including the 
-            <a href="https://www.spi.ox.ac.uk/">Department of Social Policy and Intervention</a></li>
+            <a href="https://dspi.web.ox.ac.uk/">DSPI</a> and <a href="https://www.audleyvillages.co.uk/">Audley Village</a></li>
           <li>Contributed to a React Native app project by developing features and fixes for the app. </li>
           <li>Worked in an agile environment with weekly stand-ups, sharing knowledge with teammates and working closely with the project manager to ensure that every product met the versatile, modern, and performant requirements.</li>
           <li>Followed best practices and guidelines, including being a part of developing a Drupal starter Kit for future development practices.</li>
@@ -46,7 +48,7 @@
       </div>
       <div class="project__container">
         <h2>Projects</h2>
-        <a href="https://www.versantus.co.uk/"><h3>TaxiToursFernandes</h3></a> <!--Change the href-->
+        <a href=""><h3>TaxiToursFernandes</h3></a> <!--Change the href-->
         <h4>Full-Stack Developer</h4>
         <ul>
           <li>Built a full-stack Uber influenced web app for a taxi company.</li>
@@ -55,27 +57,36 @@
         </ul>
       </div>
       <div class="pdf__container">
-        <h4><a href="/assets/CristianaSimoesResume.pdf" download>CristianaSimoesResume.pdf</a></h4>
+        <h4>Accessibility friendly <i class="fa-solid fa-universal-access"></i></h4>
       </div>
     </div>
   </div>
 
+
 <style lang="scss">
 @import './scss/main.scss';
-
 .main__container{
+  
 
     .career__and__work__container{
         margin: $spacer--10 0 $spacer--13 $spacer--2;
         grid-area: 2;
 
         a{
-            animation: glow 3s ease-in-out infinite alternate;
-            @include glow-animation;
+            // animation: glow 3s ease-in-out infinite alternate;
+            // @include glow-animation;
         }
 
         .career__container, .work__container, .project__container{
           margin-bottom: $spacer--12;
+        }
+
+        .grid_container{
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: space-between;
+          align-items: center;
+          column-gap: 32px;
         }
 
         .work__container{

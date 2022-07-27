@@ -136,6 +136,10 @@
     display: none;
   }
 
+  h3{
+    color: $dark-brown;
+  }
+
   .education__skills__language{
     padding-left: $spacer--2;
 

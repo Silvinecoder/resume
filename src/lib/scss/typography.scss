@@ -10,10 +10,13 @@ p, li, h1, h2, h3, h4{
 }
 
 h1, h2, h3{
-  color: $dark-blue;
   font-weight: $bold;
   font-family: 'Pacifico', cursive;
   margin-bottom: $spacer--5;
+}
+
+h1, h2 {
+  color: $dark-brown;
 }
 
 h1{
@@ -46,4 +49,9 @@ p, li, h4{
 
 p, li {
   color: $black;
+}
+
+a {
+  color: $med-blue;
+  text-decoration: underline;
 }

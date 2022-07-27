@@ -5,23 +5,28 @@
     grid-area: 1;
 
     h1{
+        color: $light-brown;
     margin-bottom: 0;
 
-    .flicker {
-        animation: blink 3s 2s infinite;
-        @include blink-animation;
+    // .flicker {
+    //     animation: blink 3s 2s infinite;
+    //     @include blink-animation;
+    // }
+
+    // .fast-flicker {
+    //     animation: blink 10s 1s infinite;
+    //     @include blink-animation;
+    // }
     }
 
-    .fast-flicker {
-        animation: blink 10s 1s infinite;
-        @include blink-animation;
-    }
+    h2{
+        color: $light-brown;
     }
 
     a{
     animation: glow-dark 3s ease-in-out infinite alternate;
-    color: $white;
-    @include glow-animation__dark-bg;
+    color: $light-blue;
+    // @include glow-animation__dark-bg;
     word-break: break-all;
     }
 
